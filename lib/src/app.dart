@@ -66,7 +66,7 @@ class _AppViewState extends State<AppView> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: true,
       // showPerformanceOverlay: true, //true doesn't work on web
       navigatorKey: _navigatorKey,
       title: "Fake Login",
